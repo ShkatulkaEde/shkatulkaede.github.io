@@ -1,3 +1,7 @@
 .heading_title {
     background-image: url("/ryxc/res/img/nav.png");
+    width: 2560px;
+    height: 1000px;
+    border: 20px;
+    text-align: center;
 }
