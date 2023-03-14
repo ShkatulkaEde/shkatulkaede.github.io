@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Lishu;
+    src: url(/ryxc/res/font/lishu.TTF);
+    font-weight:bold;
+}
+
 .heading_title {
     background-image: url("/ryxc/res/img/nav.png");
     border: 20px;
@@ -6,13 +12,6 @@
     background-attachment: fixed;
     background-size: 100% 100%;
     height: 500px;
-    display: -moz-box;/*兼容Firefox*/
-      display: -webkit-box;/*兼容FSafari、Chrome*/
-
-      -moz-box-align: center;/*兼容Firefox*/
-      -webkit-box-align: center;/*兼容FSafari、Chrome */
-
-      -moz-box-pack: center;/*兼容Firefox*/
-      -webkit-box-pack: center;/*兼容FSafari、Chrome */
-
+    line-height: 500px;
+    font-family: Lishu;
 }
