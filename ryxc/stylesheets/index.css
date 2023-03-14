@@ -4,4 +4,7 @@
     height: 1000px;
     border: 20px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
