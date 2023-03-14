@@ -5,4 +5,13 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    display: -moz-box;/*兼容Firefox*/
+      display: -webkit-box;/*兼容FSafari、Chrome*/
+
+      -moz-box-align: center;/*兼容Firefox*/
+      -webkit-box-align: center;/*兼容FSafari、Chrome */
+
+      -moz-box-pack: center;/*兼容Firefox*/
+      -webkit-box-pack: center;/*兼容FSafari、Chrome */
+
 }
